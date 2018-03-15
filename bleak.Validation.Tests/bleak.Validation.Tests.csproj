@@ -12,4 +12,7 @@
     <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\bleak.Validation\bleak.Validation.csproj" />
+  </ItemGroup>
 </Project>
