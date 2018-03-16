@@ -2,9 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>0.9.0</PackageVersion>
+    <Authors>Jamal Khan, bleak LLC</Authors>
+    <NeutralLanguage>es-US</NeutralLanguage>
+    <Owners>bleak LLC</Owners>
+    <Title>bleak.Validation</Title>
+    <Description>bleak.Validation, a Validation framework built around the .NET Data Annotions, System.ComponentModel.DataAnnotations. This frameworks makes it easy to decorate your POCOs with Validation Attributes for use in later validation. This can be used in any .NET App--not just within the MVC framework.</Description>
+    <PackageId>bleak.Validation</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.1" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
   </ItemGroup>
 </Project>
